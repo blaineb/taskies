@@ -1,0 +1,12 @@
+.taskItem {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    max-height: 100px; /* Adjust based on your design */
+}
+
+.taskItem.completed {
+    max-height: 20px; /* Adjust based on your design */
+    opacity: 0.6; /* Optional: to indicate completion */
+}
